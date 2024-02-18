@@ -1,0 +1,42 @@
+﻿<Window x:Class="TotalAmount.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TotalAmount"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="230" Width="250"
+        ResizeMode="NoResize"
+        Topmost="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox VerticalAlignment="Bottom"  HorizontalAlignment="Center" Height="40" Width="200" 
+                 x:Name="tbSerial" Text="JKDH454FSJF5" VerticalContentAlignment="Center" Margin="5"/>
+        <Button Content="Show Amount" VerticalAlignment="Top" Margin="20" Grid.Row="1" Width="150" Height="40" FontSize="16"  Background="Transparent" BorderBrush="Transparent"
+                Click="Button_Click"/>
+        
+        <!--<Button Content="Show Amount" FontSize="16" Click="Button_Click" CornerRa Width="100" Height="40" Grid.Row="1">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="LightBlue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>-->
+
+        
+
+        
+            
+        
+    </Grid>
+</Window>
